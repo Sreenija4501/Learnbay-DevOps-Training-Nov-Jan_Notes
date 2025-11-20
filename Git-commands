@@ -1,0 +1,13 @@
+   2 git --version
+   3 git status
+   4 echo "# Learnbay-DevOps-Training-Nov-Jan" >> README.md
+   5 git init
+   6 git status
+   7 git add .
+   8 git status
+   9 git commit -m "first commit"
+  10 git status
+  11 git branch -M main
+  12 git remote add origin https://github.com/Msocial123/Learnbay-DevOps-Training-Nov-Jan.git
+  13 git push -u origin main
+  14 hitsotry

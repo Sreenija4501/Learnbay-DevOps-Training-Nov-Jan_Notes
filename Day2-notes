@@ -1,0 +1,85 @@
+Benefits of DevOps
+================
+
+	1. Technical benefits 
+
+	Ø Faster deployments 
+	Ø Automated & consistent env
+	Ø Reduced manual errors 
+	Ø Rapid bug fixes 
+	Ø Highly scalable infrastructure 
+	Ø Self-healing systems 
+
+
+	2. Business benefits 
+
+	Ø Faster time to market 
+	Ø Higher customers satisfaction 
+	Ø Lower down time 
+	Ø Predictable releases 
+	Ø Better cost efficiency 
+	Ø Increased innovation
+
+
+
+Key principles of DevOps
+====================
+
+	1. Collaboration & Shared ownership:- Dev+qa+Ops(Devops)
+	2. Automation First:- Build + Test + Deploy infra provision is automated 
+	3. Continuous Everything:- continues integration, Continues testing, continuous deployment and delivery , continuous monitoring 
+	4. Infrastructure as Code(IAC) :- infra is version controlled, testable, reproducible  (terraform, ansible, cloud formation).
+	5. Shift Left :- security, testing, quality are moved earlier in sdlc.
+	6. Observability:- Tracing, logs, metrics , real time feedback loops( SRE)
+	7. Fail fast and learn fast :- frequent small releases reduce risk.
+
+Area                       Traditional approach                              vs                                          Modern DevOps approach 
+====                       =================                          ======                                     ======================
+
+Teams                    Dev & Ops are separated                                                                   Dev + QA + Ops are collaborated 
+
+Release cycle      monthly/quarterly                                                                                 Daily or multiple times/day , amazon will deploy releases 1 week, now 11.7 s
+
+Process                manual                                                                                                     automated 
+
+Infrastructure   physical / vms manually configured                                                      IAC 
+
+Deployment      manual deployment scripts                                                                  CICD pipelines 
+
+Testing              happens after development                                                                  continues & automated testing
+
+Monitoring      Reactive                                                                                                     pro-active and integrated
+
+Scaling             manual and slow                                                                                       Auto-sclaing
+
+Failure Recovery long outages                                                                                         fast rollback and self healing 
+
+Ownership       Dev build, ops runs                                                                                       shared responsibility
+
+
+
+
+Git
+===
+
+	Ø It is tool 
+	Ø It is nothing version control system
+	Ø Its completely free 
+	Ø We can install where ever want
+
+
+Why Git?
+========
+ 
+	Ø To track code changes
+	Ø It is versionble
+
+Prerequisites 
+===========
+
+	Ø Install git bash on ur local server
+	Ø Create one github account
+	Ø You have to configure github credentials 
+	Ø You have to configure github repo url
+	
+
