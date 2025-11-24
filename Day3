@@ -1,0 +1,131 @@
+git init:- it will initialize the repo
+Git status:- it will check ur repo status
+Git add:- it will add ur changes into staging or indexing area (which is invisible)
+Git commit -m :- it will commit ur changes into ur local repo
+Git push :- it will push ur code into remote repo or github repo
+Git remote add origin :- it will configure ur repo on ur cli
+Git remote -v :- to know on which repo that ur  working
+Git reset:- it will remove ur changes from staging area to workspace
+Git revert:- it will remove ur changes from local repo or after committing ur changes
+Git branch :- to see ur branch name
+Git branch <b-name>
+Git checkout :- to switch from one branch to another branch
+Git merge:- to merge source code from one branch to another branch
+Git delete branch:- to delete branch 
+Git pull:- it will pull changes from remote to local repo
+
+	Ø We can merge using commands
+	Ø We can merge using PR(pull request)  :- best approach 
+
+https://github.com/Msocial123/Learnbay-DevOps-Training-Nov-Jan/pull/1
+
+
+# Git commands
+
+   3 git remote -v
+   4 git status
+   5 git status
+   6 git add index.html
+   7 git status
+   8 git reset index.html
+   9 git status
+  10 git add .
+  11 git status
+  12 git reset .
+  13 git status
+  14 git add .
+  15 git status
+  16 git commit -m "new lines of code in index.html"
+  17 git status
+  18 git log
+  19 git revert 6524780e2520715b73c81447b7259f644167e819
+  20 git log
+  21 git revert 6524780e2520715b73c81447b7259f644167e819
+  22 git revert cf4ffb198f3778b73f99010900e991bbe9e59ee6
+  23 ls
+  24 git branch
+  25 git push origin main
+  26 git status
+  27 ls
+  28 ls
+  29 git branch
+  30 git branch dev1
+  31 git branch
+  32 git branch dev2
+  33 git branch dev3
+  34 git branch
+  35 git checkout dev1
+  36 git branch
+  37 git status
+  38 git add dev-1-index.html
+  39 git status
+  40 git commit -m "i have changes my file name"
+  41 git status
+  42 git push origin dev1
+  43 git branch
+  44 git checkout main
+  45 git branch
+  46 git merge dev1
+  47 git status
+  48 git push origin main
+  49 git add .
+  50 git reset .
+  51 git status
+  52 git add dev-2-login.html
+  53 git status
+  54 git commit -m "dev 2 changed file name"
+  55 git branch
+  56 git checkout dev2
+  57 git branch
+  58 git push origin dev2
+  59 git status
+  60 ls
+  61 git log
+  62 git shows
+  63 git show
+  64 git log
+  65 history
+  66 git branch
+  67 git checkout main
+  68 ls
+  69 git status
+  70 ls
+  71 git status
+  72 git checkout dev2
+  73 git checkout dev2 Aborting
+  74 git status
+  75 git branch
+  76 git add .
+  77 git status
+  78 git checkout dev2
+  79 git commit -m "added new files and lines of code"
+  80 git checkout dev2
+  81 ls
+  82 ls
+  83 git status
+  84 git add .
+  85 git commit -m "changed file name as dev2-login.html"
+  86 git status
+  87 git push origin dev2
+  88 ls
+  89 git branch
+  90 git checkout main
+  91 git branch
+  92 git branch -d dev1
+  93 git branch
+  94 git push origin --delete dev1
+  95 git branch -D dev2
+  96 git push origin --delete dev2
+  97 git status
+  98 git add .
+  99 git status
+ 100 git commit -m "added new lines of code into dev3 file"
+ 101 git push origin main
+ 102 git pull
+ 103 git push origin main
+ 104 git status
+ 105 git add .
+ 106 git commit -m "added new code"
+ 107 git push origin main
+ 108 git pull origin main
+ 109 git push origin main
